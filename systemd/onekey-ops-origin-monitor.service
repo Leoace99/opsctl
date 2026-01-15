@@ -1,0 +1,8 @@
+[Unit]
+Description=OneKey Ops - Origin Monitor (run once)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/opsctl origin run
