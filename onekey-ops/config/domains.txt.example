@@ -1,0 +1,4 @@
+# cn-check 域名列表（每行一个，支持 # 注释）
+example.com
+example.net
+example.org
